@@ -1,0 +1,10 @@
+fever,cough,headache
+cough,sore_throat,
+fever,fatigue,chills
+headache,nausea,
+fatigue,cough,
+fever,cough,sore_throat
+fatigue,headache,nausea
+fever,chills,headache
+cough,fatigue,sore_throat
+nausea,chills,
