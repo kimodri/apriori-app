@@ -14,7 +14,7 @@ export default function FileForm() {
         setResult('');
 
         try {
-            const response = await fetch('${import.meta.env.VITE_API_URL}/upload-data', {
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/upload-data`, {
                 method: 'POST',
                 body: formData,
             });

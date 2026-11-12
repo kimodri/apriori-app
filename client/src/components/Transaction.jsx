@@ -107,7 +107,7 @@ export default function Transaction() {
         setResult('');
 
         try {
-            const response = await fetch('${import.meta.env.VITE_API_URL}/parse-transactions', {
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/parse-transactions`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
